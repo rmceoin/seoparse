@@ -1,0 +1,7 @@
+1.1.1.1
+github.com
+.*.github.com
+cloudflare.com
+.*.cloudflare.com
+electronforge.io
+.*.electronforge.io

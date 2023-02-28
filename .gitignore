@@ -1,0 +1,10 @@
+
+env/
+
+domains-*
+job.*
+job-*
+
+*.html
+
+.vscode/

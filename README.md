@@ -54,7 +54,7 @@ wiederaufnahme-anwalt.de
 
 ## Notes
 
-When fetching the URLs by hand, it may be necessary to masqurade as Googlebot.
+When fetching the URLs by hand, it may be necessary to masquerade as Googlebot.
 
 ```bash
 wget -U "Googlebot/2.1 (+http://www.google.com/bot.html)" {URL}

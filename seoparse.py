@@ -58,7 +58,10 @@ def get_page(url: str) -> str:
     if validators.url(url):
         print(f'Getting {url}')
         try:
-            response = requests.get(url, timeout=30, verify=False)
+            headers = {
+                'User-Agent': 'Googlebot/2.1 (+http://www.google.com/bot.html)'
+            }
+            response = requests.get(url, timeout=30, headers=headers, verify=False)
         except requests.exceptions.Timeout:
             print("Timeout")
             return None
